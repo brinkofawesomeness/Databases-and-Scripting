@@ -1,0 +1,185 @@
+/*
+ * Conner Brinkley
+ * COSC 465 -- Databases and Scripting Languages
+ * The University of Tennessee, Knoxville
+ *
+ * Web Project Phase III
+ *
+ * */
+
+body {
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ol li {
+	line-height: 1.5em;
+	color: #454545;
+}
+
+#container main {
+	background-color: #ffffff;
+	padding: 35px;
+}
+
+h2 {
+	color: #454545;
+	font-size: 45px;
+	line-height: 0;
+}
+
+b, th, p {
+	color: #454545;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+button:hover, #person-icon, #drop-icon {
+	cursor: pointer;
+}
+
+hr {
+	background-color: #dedede;
+	height: 1px;
+	border: 0;
+	display: block;
+}
+
+.divider {
+	margin-top: 100px;
+	margin-bottom: 75px;
+}
+
+#outcome-box {
+	border: 1px solid #d1d1d1;
+	background-color: #f7f7f7;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+#outcome-box p {
+	margin: 0;
+}
+
+#resultsSuccess, #resultsFail, 
+#narrativeSuccess, #narrativeFail,
+#assessmentsSuccess, #assessmentsFail, #weightsNot100 {
+	margin-top: 10px;
+	width: 275px;
+	float: right;
+}
+
+.hide {
+	display: none !important;
+}
+
+#resultsSuccess, #narrativeSuccess, #assessmentsSuccess {
+	color: #53cf40;
+}
+
+#resultsFail, #narrativeFail, #assessmentsFail, #weightsNot100 {
+	color: #e63c3c;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+th {
+	text-align: left;
+}
+
+tr th {
+	border-bottom: 1px solid #d1d1d1; 
+}
+
+td, th {
+	padding: 13px;
+}
+
+tr td input {
+	width: 100%;
+	height: 30px;
+	box-shadow: 0;
+	border: 1px solid #d1d1d1;
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 5px;
+}
+
+.wide-col {
+	width: 70%;
+}
+
+th {
+	width: auto;
+}
+
+#assessment-plan-table tr td:not(#table-btn) {
+	border-bottom: 1px solid #d1d1d1;
+}
+
+#assessment-plan-table tr td {
+	vertical-align: top;
+}
+
+textarea {
+	width: 100%;
+	height: 75px;
+	box-shadow: 0;
+	border: 1px solid #d1d1d1;
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 5px;
+}
+
+textarea, input[type="text"] {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.rm-btn {
+	background-color: #e63c3c;
+	color: #ffffff;
+	border: 0;
+	border-radius: 5px;
+	padding: 14px;
+}
+
+.trash-icon {
+	filter: invert(100%);
+}
+
+.add-btn {
+	background-color: #53cf40;
+	color: #ffffff;
+	border: 0;
+	border-radius: 5px;
+	padding: 12px 15px 12px 15px;
+	font-size: 16px;
+}
+
+#narrative-summary textarea {
+	margin-bottom: 15px;
+}
+
+.narrative-label {
+	margin-bottom: 10px;
+	font-size: 18px;
+	line-height: 1.1em;
+}
+
+.save-btn {
+	background-color: #3a8dd6; 
+	color: #ffffff;
+	float: right;
+	border: 0;
+	border-radius: 5px;
+	padding: 12px;
+	font-size: 16px;
+}
+

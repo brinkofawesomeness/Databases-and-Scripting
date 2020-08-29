@@ -1,0 +1,153 @@
+/*
+ * Conner Brinkley
+ * COSC 465 -- Databases and Scripting Languages
+ * The University of Tennessee, Knoxville
+ *
+ * Web Project Phase III
+ *
+ * */
+
+header {
+	display: grid;
+	grid-template-columns: 50% auto;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #d1d1d1;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+header #abet {
+	line-height: 0;
+	font-size: 10px;
+	color: gray;
+}
+
+header #abet h1 {
+	font-weight: 100;
+}
+
+header #profile {
+	text-align: right;
+}
+
+ol li {
+	line-height: 1.5em;
+	color: #454545;
+}
+
+#dropdown {
+	float: right;
+	position: relative;
+	display: inline-block;
+}
+
+#dropdown-btn {
+}
+
+#userMenu {
+	display: none;
+	position: absolute;
+	width: 175px;
+	margin-left: -125px;
+	background-color: #fff;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 50;
+}
+
+#userMenu a {
+	color: #454545;
+	padding: 20px;
+	height: 100%;
+	text-decoration: none;
+	display: block;
+	text-align: left !important;
+}
+
+#dropdown:hover #userMenu {
+	display: block !important;
+}
+
+#userMenu a:hover {
+	background-color: #f7f7f7;
+}
+
+#dropdown:hover {
+	cursor: pointer;
+}
+
+#person-icon {
+	height: 25px;
+}
+
+#drop-icon {
+	height: 15px;
+}
+
+#container {
+	display: grid;
+	grid-template-columns: 20% auto;
+}
+
+#container nav {
+	background-color: #f7f7f7;
+	border-right: 1px solid #d1d1d1;
+}
+
+#nav {
+	padding: 15px;
+}
+
+#nav select {
+	width: 100%;
+	height: 50px;
+	font-size: 18px;
+	color: #454545;
+	background-color: #ffffff;
+}
+
+nav hr {
+	margin: 0;
+}
+
+.outcome-btn {
+	width: 100%;
+	height: 55px;
+	border-radius: 0;
+	text-align: left;
+	font-size: 18px;
+	color: #3a8dd6;
+	background-color: #f7f7f7;
+	margin: 0;
+	border: 0;
+	padding-left: 15px;
+}
+
+.outcome-btn:hover {
+	background-color: #e3e3e3;
+}
+
+.outcome-btn:focus {
+	outline: none;
+}
+
+.outcome-btn-active {
+	background-color: #e3e3e3 !important;
+}
+
+h3 {
+	color: #454545;
+	font-size: 25px;
+	line-height: 1.1em;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+hr {
+	background-color: #dedede;
+	height: 1px;
+	border: 0;
+	display: block;
+}
+

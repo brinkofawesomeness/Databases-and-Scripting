@@ -1,0 +1,37 @@
+/*
+ * Conner Brinkley
+ * COSC 465 -- Databases and Scripting Languages
+ * The University of Tennessee, Knoxville
+ *
+ * Web Project Phase III
+ *
+ * */
+
+#sign-in {
+	width: 95%;
+	background-color: lightgray;
+	border: 1px solid gray;
+	padding: 10px;
+	font-size: 25px;
+}
+
+#loginFail {
+	color: red;
+	font-size: 20px;
+	width: 90%;
+	text-align: center;
+}
+
+div input {
+	width: 90%;
+	padding: 10px;
+	font-size: 25px;
+	border-radius: 15px;
+	margin-top: 15px;
+}
+
+div input[type="submit"] {
+	color: white;
+	background-color: green;
+}
+
